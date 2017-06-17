@@ -1,0 +1,71 @@
+html{
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Amatic SC', cursive;
+}
+
+body{
+  background: #DDD !important;
+}
+.container-fluid {
+  background: white;
+  padding: 35px 50px 35px 50px !important;
+}
+
+.container-fluid p {
+  padding: 10px 35px;
+  padding-bottom: 20px !important;
+
+}
+
+.text-font {
+  /*font-family: 'Indie Flower', cursive;*/
+}
+
+header {
+  margin-top: 0px !important;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.img-wrap{
+  margin: 0 auto !important;
+  margin-bottom: 25px !important;
+  text-align: center !important;
+}
+
+h1 {
+  font-size: 65px !important;
+}
+
+.title-pos{
+  padding: 30px;
+  position: static;
+}
+
+.coin-bullet{
+  list-style: url(http://www.uidownload.com/files/379/18/463/retro-coin-icon.png);
+  font-size: 20px;
+
+}
+
+.spacing{
+  padding-top: 20px !important;
+  padding-left: 140px !important;
+}
+
+footer {
+  color: black;
+  font-size: 12px;
+  padding-top: 10px;
+}
+footer a {
+  color: black;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: grey;
+}
