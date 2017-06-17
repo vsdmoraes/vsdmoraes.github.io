@@ -8,7 +8,7 @@ body{
 }
 .container-fluid {
   background: white;
-  padding: 35px 50px 35px 50px !important;
+  padding: 35px 50px 10px 50px !important;
 }
 
 .container-fluid p {
@@ -38,10 +38,12 @@ img {
 
 h1 {
   font-size: 65px !important;
+  font-family: Pretendo !important;
 }
 
 .title-pos{
   padding: 30px;
+  padding-top: 10px !important;
   position: static;
 }
 
@@ -68,4 +70,37 @@ footer a {
 
 footer a:hover {
   color: grey;
+}
+
+@font-face {
+    font-family: Pretendo;
+    src: url(Pretendo.ttf);
+}
+
+.quotes {
+  font-size: 30px;
+  width: 65%;
+  margin-left: 20%;
+  position: relative;
+  margin-top: 10px !important;
+}
+
+.quotes i {
+  font-size: 60px;
+  padding-top: 50px;
+}
+
+.quotes p {
+  padding-left: 80px;
+  padding-top: 0px;
+  margin-top: -30px;
+}
+
+#who-quoted{
+  float: right;
+}
+
+.external-info {
+  text-align: center;
+  margin-top: 100px;
 }
