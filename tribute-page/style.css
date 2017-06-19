@@ -1,6 +1,5 @@
 html{
-  /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Amatic SC', cursive;
+  font-style: 
 }
 
 body{
@@ -15,10 +14,6 @@ body{
   padding: 10px 35px;
   padding-bottom: 20px !important;
 
-}
-
-.text-font {
-  /*font-family: 'Indie Flower', cursive;*/
 }
 
 header {
@@ -50,12 +45,15 @@ h1 {
 .coin-bullet{
   list-style: url(http://www.uidownload.com/files/379/18/463/retro-coin-icon.png);
   font-size: 20px;
+}
 
+.no-bullet{
+  list-style-type: none;
 }
 
 .spacing{
   padding-top: 20px !important;
-  padding-left: 140px !important;
+  padding-left: 150px !important;
 }
 
 footer {
@@ -85,22 +83,49 @@ footer a:hover {
   margin-top: 10px !important;
 }
 
-.quotes i {
+.quotes::before {
+  font-family: FontAwesome;
+  content: "\f10d";
   font-size: 60px;
   padding-top: 50px;
+
 }
 
 .quotes p {
   padding-left: 80px;
   padding-top: 0px;
   margin-top: -30px;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 #who-quoted{
   float: right;
+  font-weight: normal;
+  font-size: 25px;
+  font-style: normal;
 }
 
 .external-info {
   text-align: center;
   margin-top: 100px;
+}
+
+.external-info p {
+  margin-bottom: 0px; 
+}
+
+li::before {
+    content: url(coin.png);
+}
+
+li span {
+  position: relative;
+  top: -6px;
+  padding-left: 5px;
+}
+
+li strong::after {
+  content: " - ";
+  font-weight: normal;
 }
