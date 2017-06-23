@@ -1,0 +1,136 @@
+html{
+  font-style: 
+}
+
+body{
+  background: #DDD !important;
+}
+.container-fluid {
+  background: white;
+  padding: 35px 50px 10px 50px !important;
+}
+
+.container-fluid #text {
+  padding: 10px 60px;
+  padding-bottom: 20px !important;
+
+}
+
+header {
+  margin-top: 0px !important;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.img-wrap{
+  margin: 0 auto !important;
+  margin-bottom: 25px !important;
+  text-align: center !important;
+}
+
+h1 {
+  font-size: 65px !important;
+  font-family: Pretendo !important;
+}
+
+.title-pos{
+  padding: 30px;
+  padding-top: 10px !important;
+  position: static;
+}
+
+.coin-bullet{
+  list-style: url(http://www.uidownload.com/files/379/18/463/retro-coin-icon.png);
+  font-size: 20px;
+}
+
+.no-bullet{
+  list-style-type: none;
+}
+
+.spacing{
+  padding-top: 20px !important;
+  padding-left: 150px !important;
+}
+
+footer {
+  color: black;
+  font-size: 12px;
+  padding-top: 10px;
+}
+footer a {
+  color: black;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+@font-face {
+    font-family: Pretendo;
+    src: url(Pretendo.ttf);
+}
+
+.quotes {
+  font-size: 30px;
+  width: 65%;
+  position: relative;
+  margin-top: 50px !important;
+  padding: 0px 292px !important;
+}
+
+.quotes::before {
+  font-family: FontAwesome;
+  content: "\f10d";
+  font-size: 60px;
+  padding-top: 50px;
+
+}
+
+.quotes p {
+  padding-left: 80px;
+  padding-top: 0px;
+  margin-top: -30px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#who-quoted{
+  float: right;
+  font-weight: normal;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.external-info {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.external-info p {
+  margin-bottom: 0px; 
+}
+
+ul {
+  margin-top: 20px !important;
+  padding: 0px 200px;
+}
+
+li::before {
+    content: url(coin.png);
+}
+
+li span {
+  position: relative;
+  top: -6px;
+  padding-left: 5px;
+}
+
+li strong::after {
+  content: " - ";
+  font-weight: normal;
+}
